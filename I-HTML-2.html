@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+    <form>
+        <div>
+            <label for="FN">First Name:</label>
+            <input name="FN" type="text" value="" id="FN">
+            <label for="LN">Last Name:</label>
+            <input name="LN" type="text" value="" id="FN">
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input id="gender" name="gender" type="radio" value="male">Male
+            <input id="gender" name="gender" type="radio" value="female">Female
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="email" required>
+            <label for="password">Password:</label>
+            <input name="password" id="password" type="password" minlength="5" maxlength="10" required>
+        </div>
+        <div>
+            <label for="birthday">Birthday</label>
+                <select name="date">
+                    <option>Date</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <select name="Month">
+                    <option>Month</option>    
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                </select>
+                <select name="year">
+                    <option>Year</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                </select>
+
+        </div>
+        <div>
+        
+            <label for="term">I agree to terms and conditions</label>
+            <input name="check" type="checkbox" id="term" required>
+
+        </div>
+
+        <input type="submit">
+
+    </form>
+    
+    </body>
+
+</html>
